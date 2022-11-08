@@ -1,5 +1,8 @@
 {
     "name": "michaelmannucci/shades",
+    "description": "Generate shades & tints from a given hex color. Can be used manually or to generate Tailwind CSS variants.",
+    "homepage": "https://github.com/michaelmannucci/shades",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Michaelmannucci\\Shades\\": "src"
