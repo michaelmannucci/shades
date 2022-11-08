@@ -1,18 +1,19 @@
 {
     "name": "michaelmannucci/shades",
     "description": "A modifier that generates color shades from a given hex color. It can be used with the color fieldtype or with manual input. It can be used generate Tailwind CSS color palettes or to manually generate individual shades and tints.",
-    "homepage": "https://github.com/michaelmannucci/shades",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Mannucci",
+            "email": "contact@michaelmannucci.com",
+            "homepage": "https://michaelmannucci.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Michaelmannucci\\Shades\\": "src"
         }
     },
-    "authors": [
-        {
-            "name": "Michael Mannucci"
-        }
-    ],
     "extra": {
         "statamic": {
             "name": "Shades",
@@ -23,5 +24,6 @@
                 "Michaelmannucci\\Shades\\ServiceProvider"
             ]
         }
-    }
+    },
+    "require": {}
 }
