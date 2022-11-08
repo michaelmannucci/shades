@@ -1,0 +1,24 @@
+{
+    "name": "michaelmannucci/shades",
+    "autoload": {
+        "psr-4": {
+            "Michaelmannucci\\Shades\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michael Mannucci"
+        }
+    ],
+    "extra": {
+        "statamic": {
+            "name": "Shades",
+            "description": "Easily generate dyanmic color shades for Tailwind or individually"
+        },
+        "laravel": {
+            "providers": [
+                "Michaelmannucci\\Shades\\ServiceProvider"
+            ]
+        }
+    }
+}
