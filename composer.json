@@ -13,7 +13,7 @@
     "extra": {
         "statamic": {
             "name": "Shades",
-            "description": "Easily generate dyanmic color shades for Tailwind or individually"
+            "description": "Generate shades & tints from a given hex color. Can be used manually or to generate Tailwind CSS variants."
         },
         "laravel": {
             "providers": [
