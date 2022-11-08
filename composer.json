@@ -1,6 +1,6 @@
 {
     "name": "michaelmannucci/shades",
-    "description": "Generate shades & tints from a given hex color. Can be used manually or to generate Tailwind CSS variants.",
+    "description": "A modifier that generates color shades from a given hex color. It can be used with the color fieldtype or with manual input. It can be used generate Tailwind CSS color palettes or to manually generate individual shades and tints.",
     "homepage": "https://github.com/michaelmannucci/shades",
     "license": "MIT",
     "autoload": {
@@ -16,7 +16,7 @@
     "extra": {
         "statamic": {
             "name": "Shades",
-            "description": "Generate shades & tints from a given hex color. Can be used manually or to generate Tailwind CSS variants."
+            "description": "A modifier that generates color shades from a given hex color. It can be used with the color fieldtype or with manual input. It can be used generate Tailwind CSS color palettes or to manually generate individual shades and tints."
         },
         "laravel": {
             "providers": [
